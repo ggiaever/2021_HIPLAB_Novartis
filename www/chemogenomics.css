@@ -1,0 +1,321 @@
+					.selectize-input {
+              height: 50px;
+              width: 525px;
+              font-weight: bold;
+              font-size: 16px;
+              color: #000066;
+              padding-top: 15px;
+              border-color: #4d88ff;
+              outline-width: 5px;
+                  }
+                  
+          .selectize-dropdown {
+               font-weight: bold;
+               height: 50px;
+               width: 525px;
+               font-size: 14pt;
+               
+          }
+                  
+            #resetMenu {
+              background-color: #000066; 
+              color: white; 
+              font-size: 16px;
+              cursor: pointer; 
+              border: 8px solid #4d88ff;
+            }
+          
+            #resetMenu:hover {
+             background-color: #4d88ff;
+              color: white;
+              cursor: pointer; 
+              cursor: hand; 
+              box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+              border: 8px solid #000066;
+            } 
+            
+            .nav-tabs-custom .nav-tabs li.active  {
+              border: 1px solid #000066;
+            }
+            
+            .nav-tabs-custom  {
+              border: 2px solid #000066;
+            }
+      
+        
+         
+          .box-title {
+              font-weight: bold;
+              font-size: 20px;
+                }
+          
+          .box.box-solid.box-primary>.box-header {
+              color:#fff;
+              background:#4d88ff
+                }
+          .box box-solid box-primary {
+          		border: 3px solid #000066;
+              border-bottom-color:#000066;
+              border-left-color:#000066;
+              border-right-color:#000066;
+              border-top-color:#000066;
+          	
+          }
+       
+       
+    			.box.box-solid.box-primary bg-navy>.box-header {
+              color:#fff;
+              background:#000066;
+                }
+      		.box box-solid box-primary bg-navy {
+        			border: 8px solid #4d88ff;
+        			border-bottom-color:#4d88ff;
+              border-left-color:#4d88ff;
+              border-right-color:#4d88ff;
+              border-top-color:#4d88ff;
+        			background-color:#000066;
+          }
+          
+          
+           table.dataTable thead, 
+                table.dataTable tfoot {
+                background-color: #000066;
+                color: #fff;
+                font-size:18px;
+                font-weight: bold;
+                }
+           
+           /*table data size changed*/
+            table.dataTable tbody tr td
+                                  {
+                
+                font-size: 14px;
+                font-weight: bold;
+                color: #333;
+              }
+         
+           table.dataTable tr.selected td,
+                table.dataTable td.selected {
+                background-color: #c6c6ec;
+                }
+                
+           #targethip table.dataTable thead th {
+                white-space: nowrap
+                }
+                th a {  
+                   color: #00ffff;
+                    background-color: transparent;
+                    text-decoration: underline;
+                }
+             
+         
+         .control-label { 
+            font-size: 13pt;
+            color: black;
+            font-weight: bold
+            }
+    
+        .irs-grid-text { font-size: 10pt; }
+        .irs-max {font-size: 12pt;color: black;}
+        .irs-min {font-size: 12pt;color: black;}
+        .colorkey {width: 150px}
+        .legend_key {width:60%;}
+
+        /* logo */
+        .skin-blue .main-header .logo {
+                              background-color: #000066;
+                              }
+
+        /* logo when hovered */
+        .skin-blue .main-header .logo:hover {
+                              background-color: #000066;
+        }
+                              
+        .main-header .logo {
+          font-family: 'Calibria', Arial, sans-serif;
+          font-weight: bold;
+          font-size:24px;
+        
+        }                     
+
+        /* navbar (rest of the header) */
+        .skin-blue .main-header .navbar {
+                              background-color: #000066;
+                              }
+
+        /* main sidebar */
+        .skin-blue .main-sidebar {
+                              background-color: #000066;
+        }
+
+       .main-sidebar {
+            background-color: #000066;
+          }
+
+        /* active selected tab in the sidebarmenu */
+        .skin-blue .main-sidebar .sidebar .sidebar-menu .active a{
+                              background-color: #4d88ff;
+                              }
+   
+        /* other links in the sidebarmenu */
+        .skin-blue .main-sidebar .sidebar .sidebar-menu a{
+                              background-color: #000066;
+                              color: #ffffff;
+                              }
+
+        /* other links in the sidebarmenu when hovered */
+         .skin-blue .main-sidebar .sidebar .sidebar-menu a:hover{
+                              background-color: #4d88ff;
+                              color: #ffffff;
+         }
+                              
+                         
+        /* toggle button when hovered  */
+         .skin-blue .main-header .navbar .sidebar-toggle:hover{
+                              background-color: #4d88ff;
+                             color:  #000000;
+                              }
+         .skin-blue .main-header .navbar{
+                             background-color:  #000066;
+                             color:  #000000;
+                              }
+         #gene {
+          font-size: 16px;
+          font-weight: bold;
+          color: black;
+          border: 3px solid #4d88ff;
+         }                   
+         
+         /* GO NETWORK MODULE */
+         
+         #visNetwork1-resetGO {
+				  background-color: #000066; 
+				  color: white; 
+				  font-size: 16px;
+				  cursor: pointer; 
+				  border: 8px solid #4d88ff;
+				}
+				
+				#visNetwork1-resetGO:hover {
+				 background-color: #4d88ff;
+				  color: white;
+				  cursor: pointer; 
+				  cursor: hand; 
+				  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+				  border: 8px solid #000066;
+				}
+				
+				#visNetwork1-pool {
+				  font-size: 16px;
+				  font-weight: bold;
+				  color: black;
+				}
+         
+       /* ALL SIGNATURES MODULE */  
+       
+       #sigNetworkModule1-compResp {
+			  background-color: #000066; 
+			  color: white; 
+			  font-size: 16px;
+			  border: 8px solid #4d88ff;
+			}
+			
+			 #sigNetworkModule1-compResp:hover {
+				background-color: #4d88ff;
+			  color: white;
+			  cursor: pointer; 
+			  cursor: hand; 
+			  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+			  border: 8px solid #000066;
+			}
+			        
+			 #sigNetworkModule1-resetSig {
+			  background-color: #4d88ff; 
+			  color: white; 
+			  font-size: 16px;
+			  border-color: #000066;
+			  border: 8px solid #000066;
+			}
+			
+			 #sigNetworkModule1-resetSig:hover {
+			  background-color: #000066;
+			  color: white;
+			  cursor: pointer; 
+			  cursor: hand; 
+			  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+			  border: 8px solid #4d88ff;
+			}
+			
+			 #sigNetworkModule1-poolset {
+			  font-size: 16px;
+			  font-weight: bold;
+			  color: black;
+			        }  
+         
+         /* COMPARE SIGNATURES MODULE */
+
+			#CompareResponseModule1-alertsI {
+			   font-size: 14px;
+			   font-family: Arial;
+			   background-color: rgba(255,255,255,0.40);
+			   color: black;
+			   border-style:none;
+			 }
+			
+			#CompareResponseModule1-alertsII {
+			   font-size: 14px;
+			   font-family: Arial;
+			   background-color: rgba(255,255,255,0.40);
+			   color: black;
+			   border-style:none;
+			 }
+			
+			#CompareResponseModule1-refer {
+			   font-size: 14px;
+			   font-family: Arial;
+			   background-color: rgba(255,255,255,0.40);
+			   color: black;
+			   border-style:none;
+			 }
+			
+			#CompareResponseModule1-query {
+			   font-size: 14px;
+			   font-family: Arial;
+			   background-color: rgba(255,255,255,0.40);
+			   color: black;
+			   border-style:none;
+			   }
+			
+			
+			#CompareResponseModule1-allSigs {
+			  background-color: #000066;
+			  color: white;
+			  font-size: 16px;
+				border: 8px solid #4d88ff;
+			}
+			
+			#CompareResponseModule1-allSigs:hover {
+				 background-color: #4d88ff;
+				 color: white;
+				 cursor: pointer;
+				 cursor: hand;
+				 box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+				 border: 8px solid #000066;
+			}
+			
+			#CompareResponseModule1-resetSig {
+			  background-color: #4d88ff;
+			  color: white;
+			  font-size: 16px;
+			  border-color: #000066;
+			  border: 8px solid #000066;
+			}
+			
+			#CompareResponseModule1-resetSig:hover {
+			  background-color: #000066;
+			  color: white;
+			  cursor: pointer;
+			  cursor: hand;
+			  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+			  border: 8px solid #4d88ff;
+			}
